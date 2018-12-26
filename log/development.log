@@ -15,3 +15,6 @@ Migrating to CreateStudents (20181226093917)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20181226093917"]]
   [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("first_name", "last_name") VALUES (?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
